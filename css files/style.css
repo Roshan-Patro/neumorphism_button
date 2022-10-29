@@ -74,3 +74,61 @@ body{
 #contact_iconHoler ul li:nth-child(7) a:hover .fa{
     color: darkred;
 }
+
+
+/* Making it responsive */
+@media (max-width:1060px){
+    #contact_iconHoler ul li a{
+        width: 100px;
+        height: 100px;
+    }
+    #contact_iconHoler ul li a .fa{
+        line-height: calc(100px - 12px);
+        font-size: 35px;
+    }
+}
+
+@media (max-width:940px){
+    #contact_iconHoler ul li a{
+        width: 90px;
+        height: 90px;
+    }
+    #contact_iconHoler ul li a .fa{
+        line-height: calc(90px - 12px);
+        font-size: 33px;
+    }
+}
+
+@media (max-width:865px){
+    #contact_iconHoler ul{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+    }
+    #contact_iconHoler ul li a{
+        width: 110px;
+        height: 110px;
+        margin-bottom: 25px;
+    }
+    #contact_iconHoler ul li a .fa{
+        line-height: calc(110px - 12px);
+        font-size: 38px;
+    }
+}
+
+@media (max-width:865px){
+    #contact_iconHoler ul{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+    }
+    #contact_iconHoler ul li a{
+        width: 110px;
+        height: 110px;
+        margin-bottom: 25px;
+    }
+    #contact_iconHoler ul li a .fa{
+        line-height: calc(110px - 12px);
+        font-size: 38px;
+    }
+}
+
+
