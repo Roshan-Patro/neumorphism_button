@@ -115,19 +115,43 @@ body{
     }
 }
 
-@media (max-width:865px){
-    #contact_iconHoler ul{
-        display: grid;
-        grid-template-columns: repeat(4,1fr);
-    }
+@media (max-width:625px){
     #contact_iconHoler ul li a{
-        width: 110px;
-        height: 110px;
-        margin-bottom: 25px;
+        width: 95px;
+        height: 95px;
     }
     #contact_iconHoler ul li a .fa{
-        line-height: calc(110px - 12px);
-        font-size: 38px;
+        line-height: calc(95px - 12px);
+        font-size: 35px;
+    }
+}
+
+@media (max-width:545px){
+    #contact_iconHoler ul{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+
+@media (max-width:430px){
+    #contact_iconHoler ul li a{
+        width: 85px;
+        height: 85px;
+    }
+    #contact_iconHoler ul li a .fa{
+        line-height: calc(85px - 12px);
+        font-size: 30px;
+    }
+}
+
+@media (max-width:375px){
+    #contact_iconHoler ul li a{
+        width: 75px;
+        height: 75px;
+    }
+    #contact_iconHoler ul li a .fa{
+        line-height: calc(75px - 12px);
+        font-size: 30px;
     }
 }
 
