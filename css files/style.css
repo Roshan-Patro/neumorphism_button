@@ -155,4 +155,17 @@ body{
     }
 }
 
-
+@media (max-width:345px){
+    #contact_iconHoler ul{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        column-gap: 25px;
+    }
+    #contact_iconHoler ul li a{
+        width: 85px;
+        height: 85px;
+    }
+    #contact_iconHoler ul li a .fa{
+        line-height: calc(85px - 12px);
+    }
+}
