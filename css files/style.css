@@ -31,16 +31,16 @@ body{
     padding: 6px;
     box-sizing: border-box;
     text-decoration: none;
-    /* box-shadow: 0 10px 15px rgba(0,0,0,0.3); */
-    box-shadow: 7px 15px 18px rgba(0,0,0,0.3);
+    box-shadow: 0 10px 15px rgba(0,0,0,0.3);
 
-    /* box-shadow: 0 10px 13px #009688; */
+    /* This one can also be tried. */
+    /* box-shadow: 7px 15px 18px rgba(0,0,0,0.3); */
+
     background: linear-gradient(0deg, #ddd, #fff);
     transition: .2s;
 }
 #contact_iconHoler ul li a:hover{
     box-shadow: 0 2px 5px rgba(0,0,0,0.3);
-    /* box-shadow: 0 2px 5px #009688; */
 }
 #contact_iconHoler ul li a .fa{
     width: 100%;
@@ -74,4 +74,3 @@ body{
 #contact_iconHoler ul li:nth-child(7) a:hover .fa{
     color: darkred;
 }
-
