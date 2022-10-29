@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #dedede;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100vh;
+}
+#contact_iconHoler{
+    border-radius: 35px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+#contact_iconHoler ul{
+    margin: 0;
+    padding: 0;
+}
+#contact_iconHoler ul li{
+    list-style: none;
+    display: inline-block;
+}
